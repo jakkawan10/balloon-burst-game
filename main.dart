@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'screens/home_screen.dart';
 void main() {
   runApp(const BalloonBurstGameApp());
 }
@@ -12,7 +12,7 @@ class BalloonBurstGameApp extends StatelessWidget {
     return MaterialApp(
       title: 'Balloon Burst Word Game',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const Scaffold(
+      home: const HomeScreen(
         body: Center(
           child: Text(
             'Balloon Burst Game เริ่มต้นแล้ว!',
